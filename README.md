@@ -39,16 +39,18 @@ b.  KCL:
 6.   Record the voltage values shown in the ammeter connected to each resistor.
 7.   Take readings for different values of input voltage and tabulate them. 
 CIRCUIT DIAGRAM:
-
+$$V=V_{30\Omega}+V_{50\Omega}+V_{100\Omega}$$
 CIRCUIT DIAGRAM:
 
 
 a.   KVL:
  
+<img width="1048" height="637" alt="Screenshot 2025-11-12 092138" src="https://github.com/user-attachments/assets/07b890c0-792d-404a-964a-b3360c934ec7" />
 
 
 b.  KCL:
- 
+ <img width="1352" height="559" alt="Screenshot 2025-11-12 134513" src="https://github.com/user-attachments/assets/61132e3b-9b27-4c3c-a4fb-2aafcdb610a2" />
+
 
 Calculation:
 
@@ -64,11 +66,17 @@ b.  KCL:
 Tabulation:
 
 a.   KVL:
- 
+ |KVL|Source(V)|$$V_{30\Omega}$$|$$V_{50\Omega}$$|$$V_{100\Omega}$$|$$V_{30\Omega}+V_{50\Omega}+V_{100\Omega}$$|
+ |:-----:|:-----:|:------------:|:--------------:|:---------------:|:-----------------------------------------:|
+ |Theoretical|100|16.68V|27.8V|55.6V|100.05V|
+ |partical|100|16.7V|27.8V|55.6V|100.1V|
 
 
 b.  KCL:
-
+|KCL|$$I_{30\Omega}$$|$$I_{50\Omega}$$|$$I_{100\Omega}$$|$$V_{A}$$
+ |:-----:|:-----:|:------------:|:--------------:|:---------------:|
+ |Theoretical|1.58A|1.05A|0.53A|52.63V|
+ |partical|1.58A|1.05A|0.53A|52.6V|
 
 
 RESULT:
